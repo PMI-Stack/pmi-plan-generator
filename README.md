@@ -1,4 +1,4 @@
-# 100-Day Integration Plan Generator
+# PMI Plan Generator
 
 A Claude AI skill that generates comprehensive 100-day post-merger integration plans for PE-backed roll-up operators.
 
@@ -23,14 +23,17 @@ Operations teams at PE-backed roll-ups who need to integrate acquisitions fast. 
 ### Option 1: Claude Cowork (easiest)
 
 1. Open a Claude Cowork session
-2. Paste this repo URL into the chat
-3. Say: "Add this as a skill"
+2. Paste this repo URL into the chat:
+   ```
+   https://github.com/PMI-Stack/pmi-plan-generator
+   ```
+3. Say: **"Add this as a skill"**
 4. Done. The skill is now available in your Cowork sessions.
 
 ### Option 2: Manual Install
 
 1. Clone or download this repo
-2. Copy the `100-day-plan-generator/` folder into your `.claude/skills/` directory
+2. Copy the contents into a `pmi-plan-generator/` folder inside your `.claude/skills/` directory
 3. The skill will be available in your next Claude session
 
 ## How to Use
@@ -51,6 +54,7 @@ After the initial plan, try:
 - "Build a synergy tracking spreadsheet"
 - "Generate a lighter version for our next bolt-on"
 - "Assess integration risks for a deal we're in diligence on"
+- "Draft the board reporting template for integration updates"
 
 ## Tips for Better Output
 
